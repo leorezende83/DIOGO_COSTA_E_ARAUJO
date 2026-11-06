@@ -9,6 +9,7 @@ import {
   ShieldCheck,
   ChevronRight,
 } from 'lucide-react';
+import { logoCostaEAraujo } from '../assets/images';
 
 interface FooterProps {
   onOpenQuote: () => void;
@@ -67,7 +68,7 @@ export const Footer: React.FC<FooterProps> = ({ onOpenQuote }) => {
           <div className="lg:col-span-4 space-y-5">
             <div className="inline-block p-2 rounded-xl bg-white shadow-md">
               <img
-                src="/assets/aistudio/2-_LOGO_COSTA_E_ARAUJO_8690f1cc.jpeg"
+                src={logoCostaEAraujo}
                 alt="Grupo Costa e Araujo - Terceirização de Serviços"
                 className="h-24 sm:h-32 md:h-36 w-auto object-contain rounded-md"
                 referrerPolicy="no-referrer"

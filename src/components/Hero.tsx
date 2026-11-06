@@ -1,5 +1,6 @@
 import React from 'react';
 import { ArrowRight, CheckCircle2, MessageCircle, Users } from 'lucide-react';
+import { heroBrazilianWorkforce } from '../assets/images';
 
 interface HeroProps {
   onOpenQuote: () => void;
@@ -77,7 +78,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenQuote }) => {
       <div className="relative max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 mt-10 sm:mt-14">
         <div className="relative rounded-2xl sm:rounded-3xl overflow-hidden shadow-2xl border border-amber-500/20 bg-slate-900">
           <img
-            src="/src/assets/images/hero_brazilian_workforce_rio_1793916951496.jpg"
+            src={heroBrazilianWorkforce}
             alt="Equipe profissional de terceirização de mão de obra do Grupo Costa e Araujo - Rio de Janeiro"
             className="w-full h-[280px] sm:h-[420px] md:h-[500px] lg:h-[600px] object-cover object-top sm:object-center"
             referrerPolicy="no-referrer"

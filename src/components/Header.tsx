@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Menu, X, Phone, MessageCircle } from 'lucide-react';
+import { logoCostaEAraujo } from '../assets/images';
 
 interface HeaderProps {
   onOpenQuote: (serviceName?: string) => void;
@@ -33,7 +34,7 @@ export const Header: React.FC<HeaderProps> = ({ onOpenQuote }) => {
             className="flex items-center gap-4 group shrink-0 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-amber-600 rounded-lg p-1"
           >
             <img
-              src="/assets/aistudio/2-_LOGO_COSTA_E_ARAUJO_8690f1cc.jpeg"
+              src={logoCostaEAraujo}
               alt="Grupo Costa e Araujo - Terceirização de Serviços"
               className="h-20 sm:h-28 md:h-32 w-auto object-contain rounded-md transition-transform group-hover:scale-102"
               referrerPolicy="no-referrer"

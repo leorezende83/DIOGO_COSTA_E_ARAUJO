@@ -12,6 +12,16 @@ import {
   Check,
   Award,
 } from 'lucide-react';
+import {
+  servicePortariaAccess,
+  serviceSecurityMonitoring,
+  serviceCleaningTeam,
+  servicePoolLifeguard,
+  serviceAdministrativeSupport,
+  serviceExecutiveDriver,
+  serviceGardeningLandscaping,
+  serviceZeladoriaMaintenance,
+} from '../assets/images';
 
 export interface SolutionItem {
   id: string;
@@ -34,7 +44,7 @@ export const SOLUTIONS_DATA: SolutionItem[] = [
     category: 'Segurança Patrimonial',
     description:
       'Controle rigoroso de entradas e saídas de moradores, visitantes, entregadores e veículos com procedimentos padronizados e atendimento humanizado.',
-    image: '/src/assets/images/service_portaria_access_1793912933307.jpg',
+    image: servicePortariaAccess,
     icon: <ShieldCheck className="w-5 h-5 text-amber-600" />,
     benefits: [
       'Triagem e identificação biométrica/digital',
@@ -53,7 +63,7 @@ export const SOLUTIONS_DATA: SolutionItem[] = [
     category: 'Sistemas & CFTV',
     description:
       'Central de monitoramento conectada a câmeras HD, sensores de intrusão, botões de pânico e ronda virtual para blindagem do perímetro.',
-    image: '/src/assets/images/service_security_monitoring_1793912933690.jpg',
+    image: serviceSecurityMonitoring,
     icon: <Video className="w-5 h-5 text-amber-600" />,
     benefits: [
       'Central de videomonitoramento com operadores capacitados',
@@ -72,7 +82,7 @@ export const SOLUTIONS_DATA: SolutionItem[] = [
     category: 'Facilities & Conservação',
     description:
       'Higienização profunda e manutenção diária de halls, vidros, garagens e pisos nobres com cronograma técnico e insumos de padrão hospitalar.',
-    image: '/src/assets/images/service_cleaning_team_1793912932867.jpg',
+    image: serviceCleaningTeam,
     icon: <Sparkles className="w-5 h-5 text-amber-600" />,
     benefits: [
       'Cronogramas detalhados de limpeza diária, periódica e pesada',
@@ -91,7 +101,7 @@ export const SOLUTIONS_DATA: SolutionItem[] = [
     category: 'Área de Lazer & Saúde',
     description:
       'Profissionais certificados em salvamento aquático e primeiros socorros para vigilância preventiva, aplicação de normas de segurança e tranquilidade aos banhistas.',
-    image: '/src/assets/images/service_pool_lifeguard_1793914511773.jpg',
+    image: servicePoolLifeguard,
     icon: <LifeBuoy className="w-5 h-5 text-amber-600" />,
     benefits: [
       'Salva-vidas habilitados e credenciados pelo Corpo de Bombeiros',
@@ -110,7 +120,7 @@ export const SOLUTIONS_DATA: SolutionItem[] = [
     category: 'Administração & Escritório',
     description:
       'Colaboradores capacitados para recepção corporativa, atendimento telefônico, secretariado, triagem de correspondências e suporte operacional ao dia a dia.',
-    image: '/src/assets/images/service_administrative_support_1793914512623.jpg',
+    image: serviceAdministrativeSupport,
     icon: <Briefcase className="w-5 h-5 text-amber-600" />,
     benefits: [
       'Recepcionistas e secretárias com postura executiva',
@@ -129,7 +139,7 @@ export const SOLUTIONS_DATA: SolutionItem[] = [
     category: 'Mobilidade & Transporte',
     description:
       'Condutores profissionais com curso de direção defensiva para transporte executivo, frotas corporativas, traslados e logística de equipes com discrição absoluta.',
-    image: '/src/assets/images/service_executive_driver_1793914512663.jpg',
+    image: serviceExecutiveDriver,
     icon: <Car className="w-5 h-5 text-amber-600" />,
     benefits: [
       'Motoristas habilitados (categorias B, C, D e E) com histórico checado',
@@ -148,7 +158,7 @@ export const SOLUTIONS_DATA: SolutionItem[] = [
     category: 'Áreas Externas',
     description:
       'Poda técnica, adubação orgânica, corte de gramados e revitalização constante de jardins para manter a harmonia visual e o valor do empreendimento.',
-    image: '/src/assets/images/service_gardening_landscaping_1793912934484.jpg',
+    image: serviceGardeningLandscaping,
     icon: <Trees className="w-5 h-5 text-amber-600" />,
     benefits: [
       'Poda estética e fitossanitária de arbustos e árvores',
@@ -167,7 +177,7 @@ export const SOLUTIONS_DATA: SolutionItem[] = [
     category: 'Apoio Operacional',
     description:
       'Inspeções prediais diárias, fiscalização do regimento interno, acompanhamento de prestadores terceiros e resolução de pequenos reparos.',
-    image: '/src/assets/images/service_zeladoria_maintenance_1793912934258.jpg',
+    image: serviceZeladoriaMaintenance,
     icon: <Wrench className="w-5 h-5 text-amber-600" />,
     benefits: [
       'Checklist diário de bombas, iluminação, portões e elevadores',

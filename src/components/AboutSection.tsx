@@ -12,6 +12,7 @@ import {
   ShieldCheck,
   TrendingUp,
 } from 'lucide-react';
+import { illustrationOutsourcingBenefits } from '../assets/images';
 
 interface AboutSectionProps {
   onOpenQuote: () => void;
@@ -194,7 +195,7 @@ export const AboutSection: React.FC<AboutSectionProps> = ({ onOpenQuote }) => {
           <div className="mt-10 pt-8 border-t border-slate-800/80 grid grid-cols-1 md:grid-cols-12 gap-6 items-center relative z-10">
             <div className="md:col-span-4 rounded-2xl overflow-hidden border border-amber-500/30 bg-slate-900 shadow-md">
               <img
-                src="/src/assets/images/illustration_outsourcing_benefits_1793919321516.jpg"
+                src={illustrationOutsourcingBenefits}
                 alt="Ilustração de blindagem jurídica, crescimento de eficiência e gestão de facilities"
                 className="w-full h-44 sm:h-48 object-cover object-center"
                 referrerPolicy="no-referrer"

@@ -35,7 +35,7 @@ export const AboutSection: React.FC<AboutSectionProps> = ({ onOpenQuote }) => {
           </h2>
 
           <p className="mt-5 text-base sm:text-lg text-slate-600 leading-relaxed text-pretty">
-            O <strong className="text-slate-900 font-semibold">Grupo Costa e Araujo</strong> combina metodologia de ponta, supervisão ativa e tecnologia para transformar a rotina do seu condomínio ou empresa. Entregamos redução comprovada de custos operacionais com mão de obra criteriosamente treinada, eliminação de passivos trabalhistas e atendimento personalizado com presença constante.
+            O <strong className="text-slate-900 font-semibold">Grupo Costa e Araujo</strong> combina metodologia de ponta, supervisão ativa e tecnologia para transformar a rotina ambientes corporativos, condomínios, residências, escolas e hospitais. Entregamos redução comprovada de custos operacionais com mão de obra criteriosamente treinada, eliminação de passivos trabalhistas e atendimento personalizado com presença constante.
           </p>
 
           <div className="mt-8 flex flex-wrap items-center justify-center gap-4 text-xs sm:text-sm text-slate-700 font-medium">
@@ -68,10 +68,10 @@ export const AboutSection: React.FC<AboutSectionProps> = ({ onOpenQuote }) => {
               COMPARATIVO DE GESTÃO
             </span>
             <h3 className="mt-2 text-2xl sm:text-3xl lg:text-4xl font-bold tracking-tight text-white leading-tight">
-              Contratação Própria vs. Terceirização Costa e Araújo / Dioclean
+              Contratação Própria vs. Terceirização padrão Grupo Costa e Araújo
             </h3>
             <p className="mt-3 text-sm sm:text-base text-slate-300 leading-relaxed">
-              Descubra por que dezenas de condomínios e empresas migraram para nosso modelo de outsourcing especializado.
+              Descubra por que dezenas de condomínios e empresas migraram para nosso modelo especializado.
             </p>
           </div>
 
@@ -93,28 +93,28 @@ export const AboutSection: React.FC<AboutSectionProps> = ({ onOpenQuote }) => {
                   <li className="flex items-start gap-3 text-sm text-slate-300 leading-relaxed">
                     <div className="text-red-400 font-bold shrink-0 mt-0.5 text-base">✕</div>
                     <span>
-                      <strong className="text-white font-medium">Passivos trabalhistas acumulados:</strong> risco direto de ações jurídicas, aviso prévio e multas rescisórias de 40% do FGTS.
+                      <strong className="text-white font-medium">Passivos trabalhistas acumulados:</strong> Risco direto de ações jurídicas, aviso prévio e multas rescisórias de 40% do FGTS.
                     </span>
                   </li>
 
                   <li className="flex items-start gap-3 text-sm text-slate-300 leading-relaxed">
                     <div className="text-red-400 font-bold shrink-0 mt-0.5 text-base">✕</div>
                     <span>
-                      <strong className="text-white font-medium">Desespero em caso de faltas ou licenças médicas:</strong> posto desguarnecido sem reposição e sobrecarga da portaria ou limpeza.
+                      <strong className="text-white font-medium">Desespero em caso de faltas ou licenças médicas:</strong> Posto desguarnecido sem reposição e sobrecarga da portaria ou limpeza.
                     </span>
                   </li>
 
                   <li className="flex items-start gap-3 text-sm text-slate-300 leading-relaxed">
                     <div className="text-red-400 font-bold shrink-0 mt-0.5 text-base">✕</div>
                     <span>
-                      <strong className="text-white font-medium">Gastos ocultos constantes:</strong> compra de insumos, uniformes novos, maquinário e reposição contínua de EPIs.
+                      <strong className="text-white font-medium">Gastos ocultos constantes:</strong> Compra de insumos, uniformes novos, maquinário e reposição contínua de EPIs.
                     </span>
                   </li>
 
                   <li className="flex items-start gap-3 text-sm text-slate-300 leading-relaxed">
                     <div className="text-red-400 font-bold shrink-0 mt-0.5 text-base">✕</div>
                     <span>
-                      <strong className="text-white font-medium">Desgaste na gestão de pessoas:</strong> tempo precioso de síndicos e diretores consumido com conflitos operacionais e escalas.
+                      <strong className="text-white font-medium">Desgaste na gestão de pessoas:</strong> Tempo precioso de síndicos e diretores consumido com conflitos operacionais e escalas.
                     </span>
                   </li>
                 </ul>
@@ -139,7 +139,7 @@ export const AboutSection: React.FC<AboutSectionProps> = ({ onOpenQuote }) => {
                     <Check className="w-5 h-5 stroke-[2.5]" />
                   </div>
                   <h4 className="text-lg sm:text-xl font-bold text-white">
-                    Modelo Inteligente Costa e Araújo <span className="text-xs font-normal text-amber-300 block sm:inline">(Outsourcing Especializado)</span>
+                    Modelo Inteligente Grupo Costa e Araújo <span className="text-xs font-normal text-amber-300 block sm:inline">(Outsourcing Especializado)</span>
                   </h4>
                 </div>
 
@@ -147,28 +147,28 @@ export const AboutSection: React.FC<AboutSectionProps> = ({ onOpenQuote }) => {
                   <li className="flex items-start gap-3 text-sm text-slate-200 leading-relaxed">
                     <div className="text-amber-400 font-bold shrink-0 mt-0.5 text-base">✓</div>
                     <span>
-                      <strong className="text-white font-medium">Previsibilidade orçamentária total:</strong> valor mensal fixo em contrato com nota fiscal, sem surpresas de férias, 13º ou rescisões.
+                      <strong className="text-white font-medium">Previsibilidade orçamentária total:</strong> Valor mensal fixo em contrato com nota fiscal, sem surpresas de férias, 13º ou rescisões.
                     </span>
                   </li>
 
                   <li className="flex items-start gap-3 text-sm text-slate-200 leading-relaxed">
                     <div className="text-amber-400 font-bold shrink-0 mt-0.5 text-base">✓</div>
                     <span>
-                      <strong className="text-white font-medium">Substituição imediata de colaboradores:</strong> equipe reserva e supervisor volante em alerta para garantir posto sempre coberto.
+                      <strong className="text-white font-medium">Substituição imediata de colaboradores:</strong> Equipe reserva e supervisor volante em alerta para garantir posto sempre coberto.
                     </span>
                   </li>
 
                   <li className="flex items-start gap-3 text-sm text-slate-200 leading-relaxed">
                     <div className="text-amber-400 font-bold shrink-0 mt-0.5 text-base">✓</div>
                     <span>
-                      <strong className="text-white font-medium">Fornecimento integral de infraestrutura:</strong> equipamentos profissionais, reposição periódica de EPIs e uniformes novos inclusos.
+                      <strong className="text-white font-medium">Fornecimento integral de infraestrutura:</strong> Equipamentos profissionais, reposição periódica de EPIs e uniformes novos inclusos.
                     </span>
                   </li>
 
                   <li className="flex items-start gap-3 text-sm text-slate-200 leading-relaxed">
                     <div className="text-amber-400 font-bold shrink-0 mt-0.5 text-base">✓</div>
                     <span>
-                      <strong className="text-white font-medium">Blindagem jurídica comprovada:</strong> certidões negativas mensais e respaldo ético e legal do Grupo Costa e Araújo & Dioclean.
+                      <strong className="text-white font-medium">Blindagem jurídica comprovada:</strong> Certidões negativas mensais e respaldo ético e legal do Grupo Costa e Araújo & Dioclean.
                     </span>
                   </li>
                 </ul>
@@ -177,7 +177,7 @@ export const AboutSection: React.FC<AboutSectionProps> = ({ onOpenQuote }) => {
               <div className="mt-8 pt-4 border-t border-amber-500/20 flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-3">
                 <div className="text-xs text-amber-300 font-semibold flex items-center gap-1.5">
                   <ShieldCheck className="w-4 h-4 text-amber-400 shrink-0" />
-                  <span>Tranquilidade absoluta para síndicos e gestores</span>
+                  <span>Tranquilidade absoluta para síndicos e gestores.</span>
                 </div>
 
                 <button
@@ -211,7 +211,7 @@ export const AboutSection: React.FC<AboutSectionProps> = ({ onOpenQuote }) => {
                 Mais de 10 Anos Eliminando Dores de Cabeça Trabalhistas
               </h4>
               <p className="text-xs sm:text-sm text-slate-300 leading-relaxed">
-                Ao terceirizar com o Grupo Costa e Araújo, seu empreendimento ganha padrão institucional, equipe capacitada com NR-6/NR-35 e o conforto de ter uma empresa sólida gerenciando toda a operação diária.
+                Ao terceirizar com o Grupo Costa e Araújo, seu empreendimento ganha padrão institucional, equipe capacitada em conformidade com a NR-6 e o conforto de ter uma empresa sólida gerenciando toda a operação diária.
               </p>
             </div>
           </div>

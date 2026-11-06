@@ -8,6 +8,7 @@ import {
   ArrowRight,
   ShieldCheck,
   ChevronRight,
+  Instagram,
 } from 'lucide-react';
 import { logoCostaEAraujo } from '../assets/images';
 
@@ -171,6 +172,18 @@ export const Footer: React.FC<FooterProps> = ({ onOpenQuote }) => {
                 <Mail className="w-5 h-5 text-amber-400 shrink-0" />
                 <a href="mailto:contato@dioclean.com.br" className="hover:text-white transition-colors font-medium">
                   contato@dioclean.com.br
+                </a>
+              </div>
+
+              <div className="flex items-center gap-3">
+                <Instagram className="w-5 h-5 text-amber-400 shrink-0" />
+                <a
+                  href="https://www.instagram.com/grupocostaearaujo/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-white transition-colors font-medium"
+                >
+                  @grupocostaearaujo
                 </a>
               </div>
 

@@ -34,7 +34,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenQuote }) => {
 
         {/* Subtítulo */}
         <p className="mt-5 text-base sm:text-lg lg:text-xl text-slate-200 font-normal max-w-2xl mx-auto leading-relaxed text-balance">
-          Soluções completas em facilities, controle de acesso e conservação patrimonial para condomínios e empresas.
+          Soluções completas em facilities, controle de acesso e conservação patrimonial para condomínios, empresas, residências, escolas e hospitais.
         </p>
 
         {/* Call To Actions */}
